@@ -51,6 +51,28 @@ export default function WorkEx() {
               </div>
             </div>
             </Fade>
+            
+            <Fade left duration={1000}>
+             <div className="certificate-card1">
+               <div className="certificate-image-div">
+                 <img alt="WQ" className="card-image1" src={require("../../assests/images/worldquant.png")}></img>
+               </div>
+               <div className="certificate-detail-div">
+                 <h5 className="card-title1">Summer Trainee'16 & Quant Consultant, <b>WorldQuant LLC</b></h5>
+               </div>
+             </div>
+             </Fade>
+
+             <Fade left duration={1000}>
+             <div className="certificate-card1">
+               <div className="certificate-image-div">
+                 <img alt="WQ" className="card-image1" src={require("../../assests/images/brainpan.png")}></img>
+               </div>
+               <div className="certificate-detail-div">
+                 <h5 className="card-title1">Summer Intern'15, <b>Brainpam Innovations Pvt Ltd</b></h5>
+               </div>
+             </div>
+             </Fade>
           </div>
 
         </div>
