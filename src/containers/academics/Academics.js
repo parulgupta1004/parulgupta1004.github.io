@@ -21,7 +21,7 @@ export default function Academics() {
           <p className="subTitle acad-text-subtitle"><b>{acadSection.subTitle2}</b></p>
           <div>
             <p className="subTitle acad-text">{acadSection.thunder} <a href="https://basno.com/t2gs82bx" target="_blank"><b>CFA</b></a> (Chartered Financial Analyst) level 1 in 2019.</p>
-            <p className="subTitle acad-text">{acadSection.thunder} <a href="https://github.com/parul100495/parul100495.github.io/blob/master/src/assets/files/covid.pdf" target="_blank"><b>COVID-19: Operational Planning Guidelines & COVID-19 Partners Platform to support country preparedness & response</b></a> in 2020.</p>
+            <p className="subTitle acad-text">{acadSection.thunder} <a href="https://github.com/parul100495/parul100495.github.io/blob/source/src/assests/files/covid.pdf" target="_blank"><b>COVID-19: Operational Planning Guidelines & COVID-19 Partners Platform to support country preparedness & response</b></a> in 2020.</p>
           </div>
           
         </div>
