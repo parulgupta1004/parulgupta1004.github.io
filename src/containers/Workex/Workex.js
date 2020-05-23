@@ -69,7 +69,7 @@ export default function WorkEx() {
                  <img alt="WQ" className="card-image1" src={require("../../assests/images/brainpan.png")}></img>
                </div>
                <div className="certificate-detail-div">
-                 <h5 className="card-title1">Summer Intern'15, <b>Brainpam Innovations Pvt Ltd</b></h5>
+                 <h5 className="card-title1">Summer Intern'15, <b>Brainpan Innovations Pvt Ltd</b></h5>
                </div>
              </div>
              </Fade>
