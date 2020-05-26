@@ -28,6 +28,9 @@ function Header() {
             <a href="#workex">Work Experience</a>
           </li>
           <li>
+            <a href="#talks">Talks</a>
+          </li>
+          <li>
             <a href="#skills">Skills</a>
           </li>
           <li>

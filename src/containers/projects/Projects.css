@@ -19,6 +19,11 @@
   width: 120px;
 }
 
+.card-image2 {
+  height: auto;
+  width: 60%;
+}
+
 .card-title {
   color: black;
   font-size: 30px;
@@ -37,6 +42,10 @@
 
 .card-subtitle {
   color: #868e96;
+  font-size: 18px;
+}
+
+.card-subtitle3 {
   font-size: 18px;
 }
 

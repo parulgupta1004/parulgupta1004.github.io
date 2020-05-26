@@ -8,7 +8,7 @@ import WorkEx from "./Workex/Workex";
 import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
 import Top from "./topbutton/Top";
-
+import Talks from "./talks/talks";
 export default class Main extends Component {
   render() {
     return (
@@ -18,6 +18,7 @@ export default class Main extends Component {
         <Academics />
         <Projects />
         <WorkEx />
+        <Talks />
         <StackProgress />
         <Blogs />
         <Footer />
