@@ -17,6 +17,7 @@ export default function Academics() {
             <p className="subTitle acad-text">{acadSection.thunder} <b>Master of Science</b> in <b>Computer Science</b>, <b>University of Massachusetts Amherst</b></p>
             <p className="subTitle acad-text">{acadSection.thunder} <b>Bachelor of Technology</b> in <b>Computer Science & Engineering</b>, <b>Indian Institute of Technology Indore (IIT)</b>, India</p>
           </div>
+          
           <br />
           <p className="subTitle acad-text-subtitle"><b>{acadSection.subTitle2}</b></p>
           <div>
@@ -24,6 +25,11 @@ export default function Academics() {
             <p className="subTitle acad-text">{acadSection.thunder} <a href="https://github.com/parul100495/parul100495.github.io/blob/source/src/assests/files/covid.pdf" target="_blank"><b>COVID-19: Operational Planning Guidelines & COVID-19 Partners Platform to support country preparedness & response</b></a> in 2020.</p>
           </div>
           
+          <br />
+          <p className="subTitle acad-text-subtitle"><b>SCHOLARSHIP</b></p>
+          <div>
+            <p className="subTitle acad-text">{acadSection.thunder} <a href="https://ghc.anitab.org/" target="_blank"><b>GHC'20</b></a> Scholarship by Anita.org</p>
+          </div>
         </div>
         </Fade>
         
