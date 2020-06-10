@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.49d7b780.chunk.css",
+    "main.js": "/static/js/main.7e22ee08.chunk.js",
+    "main.js.map": "/static/js/main.7e22ee08.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.52185a67.js",
+    "runtime-main.js.map": "/static/js/runtime-main.52185a67.js.map",
+    "static/js/2.f5392c85.chunk.js": "/static/js/2.f5392c85.chunk.js",
+    "static/js/2.f5392c85.chunk.js.map": "/static/js/2.f5392c85.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.600d560235a66ec9766c03e32de2f164.js": "/precache-manifest.600d560235a66ec9766c03e32de2f164.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.49d7b780.chunk.css.map": "/static/css/main.49d7b780.chunk.css.map",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/arcesium.png": "/static/media/arcesium.46642aec.png",
+    "static/media/books.svg": "/static/media/books.1c26e4ee.svg",
+    "static/media/brainpan.png": "/static/media/brainpan.06e34872.png",
+    "static/media/covid.png": "/static/media/covid.ef74b947.png",
+    "static/media/facebook.png": "/static/media/facebook.2b56f3b7.png",
+    "static/media/fairlearn.png": "/static/media/fairlearn.23ff169f.png",
+    "static/media/genes.png": "/static/media/genes.1b64eb16.png",
+    "static/media/girl.svg": "/static/media/girl.6501cb4c.svg",
+    "static/media/logo.svg": "/static/media/logo.0888dd7e.svg",
+    "static/media/neural.png": "/static/media/neural.3d180770.png",
+    "static/media/optum.png": "/static/media/optum.0a602df0.png",
+    "static/media/senti.png": "/static/media/senti.9be88ea7.png",
+    "static/media/skills.svg": "/static/media/skills.9f12a3c5.svg",
+    "static/media/speaker2.png": "/static/media/speaker2.29db8e0d.png",
+    "static/media/woman.png": "/static/media/woman.4ca8e049.png",
+    "static/media/worldquant.png": "/static/media/worldquant.c3b082aa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52185a67.js",
+    "static/js/2.f5392c85.chunk.js",
+    "static/css/main.49d7b780.chunk.css",
+    "static/js/main.7e22ee08.chunk.js"
+  ]
+}
