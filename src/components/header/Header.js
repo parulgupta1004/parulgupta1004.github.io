@@ -31,6 +31,9 @@ function Header() {
             <a href="#talks">Talks</a>
           </li>
           <li>
+            <a href="#scholarship">Scholarship</a>
+          </li>
+          <li>
             <a href="#skills">Skills</a>
           </li>
           <li>
