@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
+import Blogs from "./blogs/Blogs";
 import Academics from "./academics/Academics";
 import Projects from "./projects/Projects";
 import WorkEx from "./Workex/Workex";
@@ -13,10 +14,12 @@ export default class Main extends Component {
       <div>
         <Header />
         <Greeting />
-        {/* <WorkEx />
         <Talks />
+        {/* <WorkEx />
+        //
         <Projects />
         <Academics /> */}
+        {/* <Blogs /> */}
         <Footer />
         <Top />
       </div>

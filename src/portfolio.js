@@ -8,18 +8,20 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Parul Gupta",
-  title: "Hi, I'm Parul",
-  subTitle: "A learner and an explorer of new domains, challenges and opportunities. Love to talk about ALGORITHMS and MACHINE LEARNING.",
-  resumeLink: ""
+  title: "Parul Gupta",
+  subTitle: "Engineering @ Meta",
+  paragraph_emp: "10+ international talks ",
+  paragraph: "on ongoing advancements in AI technology and women in the tech industry.",
+  paragraph2_emp: "CPython Triager",
+  paragraph2: ", Python Software Foundation (PSF).",
+  paragraph3_emp: "Early contributor to Fairlearn",
+  paragraph3: ", a Python library for fairness of AI systems.",
 };
 
 // Your Social Media Link
-
 const socialMediaLinks = {
-
   github: "https://github.com/parul100495",
   linkedin: "https://www.linkedin.com/in/parul-gupta-umass/",
-  twitter: "https://twitter.com/parul100495",
   instagram: "https://www.instagram.com/parul_gupta_insights/",
 };
 
@@ -44,34 +46,6 @@ const acadSection = {
     }
 
   ],
-
-
-  softwareSkills: [
-    {
-      skillName: "pytorch",
-      fontAwesomeClassname: "fab fa-pytorch"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    }
-  ]
 };
 
 const Workex = {
@@ -82,7 +56,6 @@ const Workex = {
 const projectSection = {
   title: "Machine Learning Projects",
   subtitle: "Some Cool Stuff that I have done in machine learning...",
-
   title2: "Other Projects"
 };
 
