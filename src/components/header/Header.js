@@ -17,13 +17,7 @@ function Header() {
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon"></span>
         </label>
-        <ul className="menu">
-          <li>
-            <a href="#academics">Academics</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
+        {/* <ul className="menu">
           <li>
             <a href="#workex">Work Experience</a>
           </li>
@@ -31,15 +25,12 @@ function Header() {
             <a href="#talks">Talks</a>
           </li>
           <li>
-            <a href="#scholarship">Scholarship</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#academics">Academics</a>
           </li>
-          <li>
-            <a href="#blogs">Blogs</a>
-          </li>
-        </ul>
+        </ul> */}
       </header>
     </div>
     </Fade>

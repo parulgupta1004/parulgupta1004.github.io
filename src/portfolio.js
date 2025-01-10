@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Parul Gupta",
   title: "Hi, I'm Parul",
-  subTitle: "A learner and an explorer of new domains, challenges and opportunities. Love to talk about ALGORITHMS, DATA SCIENCE and MACHINE LEARNING.",
+  subTitle: "A learner and an explorer of new domains, challenges and opportunities. Love to talk about ALGORITHMS and MACHINE LEARNING.",
   resumeLink: ""
 };
 
@@ -20,7 +20,7 @@ const socialMediaLinks = {
   github: "https://github.com/parul100495",
   linkedin: "https://www.linkedin.com/in/parul-gupta-umass/",
   twitter: "https://twitter.com/parul100495",
-  gmail: "parul100495@gmail.com"
+  instagram: "https://www.instagram.com/parul_gupta_insights/",
 };
 
 const acadSection = {
@@ -42,7 +42,7 @@ const acadSection = {
       skillName: "R",
       fontAwesomeClassname: "fab fa-r-project"
     }
-    
+
   ],
 
 
@@ -82,7 +82,7 @@ const Workex = {
 const projectSection = {
   title: "Machine Learning Projects",
   subtitle: "Some Cool Stuff that I have done in machine learning...",
-  
+
   title2: "Other Projects"
 };
 

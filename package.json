@@ -38,5 +38,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "Website link: parul100495.github.io",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parul100495/parul100495.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parul100495/parul100495.github.io/issues"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
