@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1489404c.css",
-    "main.js": "/static/js/main.273d9ef1.js",
+    "main.js": "/static/js/main.07b60fef.js",
     "static/media/genes.png": "/static/media/genes.412567cd4f035f12e728.png",
     "static/media/woman.png": "/static/media/woman.4aef10f5557bc272b53c.png",
     "static/media/covid.png": "/static/media/covid.580f3aa9815e650abbd9.png",
@@ -18,10 +18,10 @@
     "static/media/worldquant.png": "/static/media/worldquant.0c3372eb86839303d626.png",
     "index.html": "/index.html",
     "main.1489404c.css.map": "/static/css/main.1489404c.css.map",
-    "main.273d9ef1.js.map": "/static/js/main.273d9ef1.js.map"
+    "main.07b60fef.js.map": "/static/js/main.07b60fef.js.map"
   },
   "entrypoints": [
     "static/css/main.1489404c.css",
-    "static/js/main.273d9ef1.js"
+    "static/js/main.07b60fef.js"
   ]
 }
