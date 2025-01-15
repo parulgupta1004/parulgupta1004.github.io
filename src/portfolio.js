@@ -20,8 +20,8 @@ const greeting = {
 
 // Your Social Media Link
 const socialMediaLinks = {
-  github: "https://github.com/parul100495",
-  linkedin: "https://www.linkedin.com/in/parul-gupta-umass/",
+  github: "https://github.com/parulgupta1004",
+  linkedin: "https://www.linkedin.com/in/parulgupta04/",
   instagram: "https://www.instagram.com/parul_gupta_insights/",
 };
 
