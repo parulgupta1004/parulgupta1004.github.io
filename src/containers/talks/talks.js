@@ -1,0 +1,29 @@
+import React from "react";
+import "../projects/Projects.css";
+import "./talks.css";
+import { Fade } from "react-reveal";
+export default function Talks() {
+
+  return (
+    <Fade bottom duration={1000}>
+      <div className="main" id="talks">
+        <div className="project-main-div">
+          <div className="project-header">
+            <h1 className="heading project-heading">Top Talks</h1>
+            <div>
+            <p><b>Nov 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://gdg.community.dev/events/details/google-gdg-silicon-valley-presents-responsible-ai-conference-devfest-silicon-valley/" className="no_decor">Speaker</a> @ Responsible AI Conference, Google Devfest Silicon Valley 2024 - '50 Shades Of Fairness: Into The World Of Constraints'</p>
+            <p><b>Oct 2024</b>: Speaker @ PE Summit, Meta</p>
+            <p><b>Oct 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/DA30RFauClb/" className="no_decor">Speaker</a> @ Women in Computer Science, University of Massachusetts Amherst (wicsumass) - 'My Early Career Insights'</p>
+            <p><b>Sep 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://2024.pybay.org/speaking/" className="no_decor">Speaker</a> @ PyBay 2024 - '<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=RgFe5tc-3TQ&t=43s" className="no_decor">Accelerating ML Prototyping: The Pythonic Way</a>'</p>
+            <p><b>Apr 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.womentech.net/speaker/all/all/101702" className="no_decor">Speaker</a> @ Women In Tech Global Conference 2024 - 'Early Career Branding: How I Built My Niche'</p>
+            <p><b>May 2023</b>: <a target="_blank" rel="noopener noreferrer" href="https://cfp.jupytercon.com/2023/speaker/AWYZRF/" className="no_decor">Speaker</a> @ JupyterCon 2023 - '<a target="_blank" rel="noopener noreferrer" href="https://cfp.jupytercon.com/2023/talk/7X3G8H/"  className="no_decor">A tale of notebook recovery: session reconnects, execution recoveries and more</a>'</p>
+            <p><b>May 2023</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.womentech.net/speaker/all/all/79305" className="no_decor">Speaker</a> @ Women In Tech Global Conference 2023 - 'Early Career Mentorship: My Journey From Mentee To Mentor'</p>
+            <p><b>Oct 2022</b>: Speaker @ Women In Engineering, Meta</p>
+            <p><b>Jun 2020</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.womentech.net/speaker/Parul/Gupta/23931" className="no_decor">Speaker</a> @ Women In Tech Global Conference 2020 - '<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=eMd8GHFy_zw&t=16s" className="no_decor">(Un)Fair Machine Learning</a>' (<a target="_blank" rel="noopener noreferrer" href="https://github.com/parul100495/parul100495.github.io/blob/source/src/assests/files/Certificate-nominee--womentech.pdf" className="no_decor" >Nominated - WomenTech Global Awards</a>)</p>
+            </div>
+            </div>
+          </div>
+      </div>
+    </Fade>
+  );
+}
