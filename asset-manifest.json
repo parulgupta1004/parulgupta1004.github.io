@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1489404c.css",
+    "main.js": "/static/js/main.1db31e4e.js",
+    "static/media/genes.png": "/static/media/genes.412567cd4f035f12e728.png",
+    "static/media/woman.png": "/static/media/woman.4aef10f5557bc272b53c.png",
+    "static/media/covid.png": "/static/media/covid.580f3aa9815e650abbd9.png",
+    "static/media/neural.png": "/static/media/neural.7abcbbe0e1c4c29b3cf4.png",
+    "static/media/senti.png": "/static/media/senti.57e7eb8a8b15043b6ef5.png",
+    "static/media/parul_gupta_website.jpg": "/static/media/parul_gupta_website.ef62c9d77c016fa44242.jpg",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/arcesium.png": "/static/media/arcesium.774d04793f59aa39a8c3.png",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/brainpan.png": "/static/media/brainpan.fb913a487596cf3eee2c.png",
+    "static/media/optum.png": "/static/media/optum.84c85e3c0a91fc199ad9.png",
+    "static/media/books.svg": "/static/media/books.4789292888f800eeb2b88db301000bfb.svg",
+    "static/media/fairlearn.png": "/static/media/fairlearn.ece70269e0769b8ba451.png",
+    "static/media/worldquant.png": "/static/media/worldquant.0c3372eb86839303d626.png",
+    "index.html": "/index.html",
+    "main.1489404c.css.map": "/static/css/main.1489404c.css.map",
+    "main.1db31e4e.js.map": "/static/js/main.1db31e4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1489404c.css",
+    "static/js/main.1db31e4e.js"
+  ]
+}
