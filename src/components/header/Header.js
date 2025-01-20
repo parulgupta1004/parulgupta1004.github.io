@@ -24,6 +24,9 @@ function Header() {
           <li>
             <a href="#talks">Talks</a>
           </li>
+          <li>
+            <a href="#community">Community</a>
+          </li>
         </ul>
       </header>
     </div>
