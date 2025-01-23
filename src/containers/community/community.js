@@ -16,12 +16,15 @@ export default function Community() {
             <p><b>Jul 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/pyninsula-python-peninsula-meetup/events/301678708/" className="no_decor">Python Pyninsula Meetup 2024</a></p>
             <p><b>Jun 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://2024.northbaypython.org/" className="no_decor">North Bay Python 2024</a></p>
             <p><b>May 2024</b>: Session Runner @ <a target="_blank" rel="noopener noreferrer" href="https://us.pycon.org/2024/" className="no_decor">PyCon US 2024</a></p>
-            <p><b>Mar 2024</b>: Representator, Meta Platforms Inc @ <a target="_blank" rel="noopener noreferrer" href="https://www.socallinuxexpo.org/scale/21x" className="no_decor">SCaLE 21x 2024</a></p>
+            <p><b>Mar 2024</b>: Led Meta Platforms' representation @ <a target="_blank" rel="noopener noreferrer" href="https://www.socallinuxexpo.org/scale/21x" className="no_decor">SCaLE 21x 2024</a></p>
             <p><b>Sep 2023</b>: <a target="_blank" rel="noopener noreferrer" href="https://ghc.anitab.org/" className="no_decor">Grace Hopper Celebration 2023</a></p>
             <p><b>Jun 2022</b>: <a target="_blank" rel="noopener noreferrer" href="https://rstats.ai/" className="no_decor">2022 New York R Conference</a></p>
+            <p><b>Jun 2021 - Apr 2022</b>: Mentor @ <a target="_blank" rel="noopener noreferrer" href="https://rewritingthecode.org/" className="no_decor">Rewriting The Code</a></p>
             <p><b>Feb 2021</b>: Communications Lead @ <a target="_blank" rel="noopener noreferrer" href="https://groups.cs.umass.edu/voicesofds21/" className="no_decor">Voices of Data Science, University of Massachusetts Amherst</a></p>
             <p><b>Oct 2019</b>: <a target="_blank" rel="noopener noreferrer" href="https://yahoofinanceams2019.splashthat.com/" className="no_decor">Yahoo Finance All Markets Summit 2019: Generational Opportunities</a></p>
             <p><b>Oct 2018</b>: <a target="_blank" rel="noopener noreferrer" href="https://in.pycon.org/2018/" className="no_decor">PyCon India 2018</a></p>
+            <p><b>Mar 2016</b>: Represented IIT Indore @ <a target="_blank" rel="noopener noreferrer" href="https://nif.org.in/foin-2016" className="no_decor">Festival of Innovation 2016, Department of Science and Technology, Government of India at Rastrapati Bhawan (President's House), India</a></p>
+            <p><b>Dec 2015</b>: Represented IIT Indore @ <a target="_blank" rel="noopener noreferrer" href="https://pib.gov.in/newsite/PrintRelease.aspx?relid=131767" className="no_decor">India International Science Fair 2015, Ministry of Science and Technology, Government of India held at IIT Delhi</a></p>
             </div>
             </div>
           </div>
