@@ -1,18 +1,13 @@
 import React from "react";
 import "./App.css";
 import Main from "./containers/Main";
+import ReactGA from 'react-ga';
+
 
 function App() {
     // setup google analytics
-    var _gaq = _gaq || [];
-    _gaq.push(['parulgupta_website._setAccount', 'G-ZKFQ0EFNKY']);
-    _gaq.push(['parulgupta_website._trackPageview']);
-
-    (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = 'https://www.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+    ReactGA.initialize('G-ZKFQ0EFNKY');
+    ReactGA.pageview(window.location.pathname + window.location.search);
 
   return (
     <div>
