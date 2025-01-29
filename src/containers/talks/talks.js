@@ -11,6 +11,7 @@ export default function Talks() {
           <div className="project-header">
             <h1 className="heading project-heading">Top Talks</h1>
             <div>
+            <p><b>Jan 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://gdg.community.dev/events/details/google-gdg-on-campus-nanyang-technological-university-singapore-singapore-presents-fairness-in-ai-with-parul-gupta/" className="no_decor">Speaker</a> @ Google Developer Group (GDG), NTU Singapore - '<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/events/7289910200214396928/" className="no_decor">Fairness in AI with Parul Gupta</a>'</p>
             <p><b>Nov 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://gdg.community.dev/events/details/google-gdg-silicon-valley-presents-responsible-ai-conference-devfest-silicon-valley/" className="no_decor">Speaker</a> @ Responsible AI Conference, Google Devfest Silicon Valley 2024 - '50 Shades Of Fairness: Into The World Of Constraints'</p>
             <p><b>Oct 2024</b>: Speaker @ PE Summit, Meta</p>
             <p><b>Oct 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/DA30RFauClb/" className="no_decor">Speaker</a> @ Women in Computer Science, University of Massachusetts Amherst (wicsumass) - 'My Early Career Insights'</p>
