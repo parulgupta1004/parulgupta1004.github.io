@@ -11,7 +11,7 @@ export default function Talks() {
           <div className="project-header">
             <h1 className="heading project-heading">Top Talks</h1>
             <div>
-            <p><b>Feb 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.conf42.com/Python_2025_Parul_Gupta_ai_ml_prototyping" className="no_decor">Speaker</a> @ Conf42 Python 2025 - 'Accelerating AI Lifecycle: Meta's Fast ML Prototyping Insights'</p>
+            <p><b>Feb 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.conf42.com/python2025" className="no_decor">Keynote Speaker</a> @ Conf42 Python 2025 - '<a target="_blank" rel="noopener noreferrer" href="https://www.conf42.com/Python_2025_Parul_Gupta_ai_ml_prototyping" className="no_decor">Accelerating AI Lifecycle: Meta's Fast ML Prototyping Insights</a>'</p>
             <p><b>Jan 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://gdg.community.dev/events/details/google-gdg-on-campus-nanyang-technological-university-singapore-singapore-presents-fairness-in-ai-with-parul-gupta/" className="no_decor">Speaker</a> @ Google Developer Group (GDG), NTU Singapore - '<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/events/7289910200214396928/" className="no_decor">Fairness in AI with Parul Gupta</a>'</p>
             <p><b>Nov 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://gdg.community.dev/events/details/google-gdg-silicon-valley-presents-responsible-ai-conference-devfest-silicon-valley/" className="no_decor">Speaker</a> @ Responsible AI Conference, Google Devfest Silicon Valley 2024 - '50 Shades Of Fairness: Into The World Of Constraints'</p>
             <p><b>Oct 2024</b>: Speaker @ PE Summit, Meta</p>
