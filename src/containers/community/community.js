@@ -11,6 +11,7 @@ export default function Community() {
           <div className="project-header">
             <h1 className="heading project-heading">Community Engagements</h1>
             <div>
+            <p><b>Feb 2025</b>: Judge @ <a target="_blank" rel="noopener noreferrer" href="https://gdg.community.dev/events/details/google-gdg-on-campus-higher-school-of-communication-of-tunis-supcom-ariana-tunisia-presents-ai-odyssey-hackathon/cohost-gdg-on-campus-higher-school-of-communication-of-tunis-supcom-ariana-tunisia" className="no_decor">AI Odyssey Hackathon 2025 - GDG, Sup'Com, Ariana, Tunisia</a></p>
             <p><b>Jan 2025</b>: Career Exploration Lounge @ <a target="_blank" rel="noopener noreferrer" href="https://rewritingthecode.org/event/tech-connect-tech-exploration-recruiting-event/" className="no_decor">Re-writing The Code - Tech Connect 2025</a></p>
             <p><b>Jan 2025</b>: Featured @ <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/posts/womentech-network_womenintech-networking-motivation-activity-7290453345729761281-EIcw" className="no_decor">WomenTech Network Highlights 2025</a></p>
             <p><b>Dec 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://conference.pyladies.com/" className="no_decor">PyLadies Con 2024</a></p>
