@@ -23,6 +23,7 @@ const socialMediaLinks = {
   github: "https://github.com/parulgupta1004",
   linkedin: "https://www.linkedin.com/in/parulgupta04/",
   instagram: "https://www.instagram.com/parul_gupta_insights/",
+  google_dev: "https://developers.google.com/profile/u/parul-gupta",
 };
 
 const acadSection = {
