@@ -11,6 +11,7 @@ export default function Talks() {
           <div className="project-header">
             <h1 className="heading project-heading">Top Talks</h1>
             <div>
+            <p><b>Feb 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.cics.umass.edu/events/ace-coding-interview-atci" className="no_decor">Guest Speaker</a> @ Career Development Workshop, University of Massachusetts Amherst - 'Ace the Coding Interview (ATCI)'</p>
             <p><b>Feb 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://2025.pycascades.com/program/talks/pyladies-panel/" className="no_decor">Panelist</a> @ PyCascades 2025 - 'PyLadies Panel: Talking about experiences and roles within the Python community'</p>
             <p><b>Feb 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://gdg.community.dev/events/details/google-gdg-on-campus-higher-school-of-communication-of-tunis-supcom-ariana-tunisia-presents-ai-odyssey-hackathon/cohost-gdg-on-campus-higher-school-of-communication-of-tunis-supcom-ariana-tunisia" className="no_decor">Keynote Speaker</a> @ AI Odyssey Hackathon 2025 - GDG, Sup'Com, Ariana, Tunisia</p>
             <p><b>Feb 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.conf42.com/python2025" className="no_decor">Keynote Speaker</a> @ Conf42 Python 2025 - '<a target="_blank" rel="noopener noreferrer" href="https://www.conf42.com/Python_2025_Parul_Gupta_ai_ml_prototyping" className="no_decor">Accelerating AI Lifecycle: Meta's Fast ML Prototyping Insights</a>'</p>
