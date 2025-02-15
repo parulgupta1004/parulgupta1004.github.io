@@ -11,7 +11,9 @@ export default function Community() {
           <div className="project-header">
             <h1 className="heading project-heading">Community Engagements</h1>
             <div>
-            <p><b>Feb 2025</b>: Judge @ <a target="_blank" rel="noopener noreferrer" href="https://gdg.community.dev/events/details/google-gdg-on-campus-higher-school-of-communication-of-tunis-supcom-ariana-tunisia-presents-ai-odyssey-hackathon/cohost-gdg-on-campus-higher-school-of-communication-of-tunis-supcom-ariana-tunisia" className="no_decor">AI Odyssey Hackathon 2025 - GDG, Sup'Com, Ariana, Tunisia</a></p>
+            <p><b>Feb 2025</b>: Judge @ <a target="_blank" rel="noopener noreferrer" href="https://gdg.community.dev/events/details/google-gdg-on-campus-eastern-washington-university-cheney-united-states-presents-build-with-ai-codequest-2025/" className="no_decor">Build With AI: CodeQuest 2025</a>, GDG, Eastern Washington University</p>
+            <p><b>Feb 2025</b>: Judge @ <a target="_blank" rel="noopener noreferrer" href="https://hackforhumanity.io/" className="no_decor">Hack For Humanity 2025</a>, Santa Clara University</p>
+            <p><b>Feb 2025</b>: Judge @ <a target="_blank" rel="noopener noreferrer" href="https://gdg.community.dev/events/details/google-gdg-on-campus-higher-school-of-communication-of-tunis-supcom-ariana-tunisia-presents-ai-odyssey-hackathon/cohost-gdg-on-campus-higher-school-of-communication-of-tunis-supcom-ariana-tunisia" className="no_decor">AI Odyssey Hackathon 2025</a>, GDG, Sup'Com, Ariana, Tunisia</p>
             <p><b>Jan 2025</b>: Career Exploration Lounge @ <a target="_blank" rel="noopener noreferrer" href="https://rewritingthecode.org/event/tech-connect-tech-exploration-recruiting-event/" className="no_decor">Re-writing The Code - Tech Connect 2025</a></p>
             <p><b>Jan 2025</b>: Featured @ <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/posts/womentech-network_womenintech-networking-motivation-activity-7290453345729761281-EIcw" className="no_decor">WomenTech Network Highlights 2025</a></p>
             <p><b>Dec 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://conference.pyladies.com/" className="no_decor">PyLadies Con 2024</a></p>
@@ -21,9 +23,9 @@ export default function Community() {
             <p><b>Jun 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://2024.northbaypython.org/" className="no_decor">North Bay Python 2024</a></p>
             <p><b>May 2024</b>: Session Runner @ <a target="_blank" rel="noopener noreferrer" href="https://us.pycon.org/2024/" className="no_decor">PyCon US 2024</a></p>
             <p><b>Mar 2024</b>: Led Meta Platforms' representation @ <a target="_blank" rel="noopener noreferrer" href="https://www.socallinuxexpo.org/scale/21x" className="no_decor">SCaLE 21x 2024</a></p>
-            <p><b>Sep 2023</b>: <a target="_blank" rel="noopener noreferrer" href="https://ghc.anitab.org/" className="no_decor">Grace Hopper Celebration 2023</a></p>
+            <p><b>Sep 2023</b>: Scholarship Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://ghc.anitab.org/" className="no_decor">Grace Hopper Celebration 2023</a></p>
             <p><b>Jun 2022</b>: <a target="_blank" rel="noopener noreferrer" href="https://rstats.ai/" className="no_decor">2022 New York R Conference</a></p>
-            <p><b>Jun 2021 - Apr 2022</b>: Mentor @ <a target="_blank" rel="noopener noreferrer" href="https://rewritingthecode.org/" className="no_decor">Rewriting The Code</a></p>
+            <p><b>Jun 2021 - Present</b>: Mentor @ <a target="_blank" rel="noopener noreferrer" href="https://rewritingthecode.org/" className="no_decor">Rewriting The Code</a></p>
             <p><b>Feb 2021</b>: Communications Lead @ <a target="_blank" rel="noopener noreferrer" href="https://groups.cs.umass.edu/voicesofds21/" className="no_decor">Voices of Data Science, University of Massachusetts Amherst</a></p>
             <p><b>Oct 2019</b>: <a target="_blank" rel="noopener noreferrer" href="https://yahoofinanceams2019.splashthat.com/" className="no_decor">Yahoo Finance All Markets Summit 2019: Generational Opportunities</a></p>
             <p><b>Oct 2018</b>: <a target="_blank" rel="noopener noreferrer" href="https://in.pycon.org/2018/" className="no_decor">PyCon India 2018</a></p>
