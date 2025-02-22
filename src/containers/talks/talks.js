@@ -11,6 +11,7 @@ export default function Talks() {
           <div className="project-header">
             <h1 className="heading project-heading">Top Talks</h1>
             <div>
+            <p><b>Feb 2025</b>: <a target="_blank" rel="noopener noreferrer" href="hhttps://www.youtube.com/watch?v=XWF8Xy9MyZ4" className="no_decor">Guest Host Speaker</a> @ Two Voice Devs - 'Episode 228 - AI Ethics: How Developers Can Build Fairer Systems'</p>
             <p><b>Feb 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/pyninsula-python-peninsula-meetup/events/305983063/" className="no_decor">Speaker</a> @ Pyninsula 2025 - 'Pythonic Potions: Mastering Scientific Sorcery With Efficient Code'</p>
             <p><b>Feb 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.cics.umass.edu/events/ace-coding-interview-atci" className="no_decor">Guest Speaker</a> @ Career Development Workshop, University of Massachusetts Amherst - 'Ace the Coding Interview (ATCI)'</p>
             <p><b>Feb 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://2025.pycascades.com/program/talks/pyladies-panel/" className="no_decor">Guest Panelist</a> @ PyCascades 2025 - 'PyLadies Panel: Talking about experiences and roles within the Python community'</p>
