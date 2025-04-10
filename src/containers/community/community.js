@@ -14,6 +14,7 @@ export default function Community() {
             <p><b>Sep 2025</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://tapiaconference.cmd-it.org/" className="no_decor">Tapia 2025</a></p>
             <p><b>Jul 2025</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://ep2025.europython.eu/" className="no_decor">EuroPython 2025</a></p>
             <p><b>Jul 2025</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://www.scipy2025.scipy.org/" className="no_decor">Scipy 2025</a></p>
+            <p><b>Apr 2025</b>: Judge @ <a target="_blank" rel="noopener noreferrer" href="https://sfhacks.io/" className="no_decor">SF Hacks 2025</a> (Theme - Tech For Good), San Francisco, CA</p>
             <p><b>Mar 2025</b>: Led Meta Platforms Inc's representation @ <a target="_blank" rel="noopener noreferrer" href="https://www.socallinuxexpo.org/scale/22x" className="no_decor">SCaLE 22x 2025</a></p>
             <p><b>Feb - Mar 2025</b>: Mentor @ <a target="_blank" rel="noopener noreferrer" href="https://labs.codeday.org/" className="no_decor">CodeDay Labs</a></p>
             <p><b>Feb 2025</b>: Judge @ <a target="_blank" rel="noopener noreferrer" href="https://gdg.community.dev/events/details/google-gdg-on-campus-eastern-washington-university-cheney-united-states-presents-build-with-ai-codequest-2025/" className="no_decor">Build With AI: CodeQuest 2025</a>, GDG, Eastern Washington University</p>
