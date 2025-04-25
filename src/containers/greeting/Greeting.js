@@ -23,8 +23,8 @@ export default function Greeting() {
               {greeting.title}
             </h1>
             <p className="greeting-text-p"><b>{greeting.subTitle}</b></p>
-            <p className="greeting-text-p2 subTitle"><b>{greeting.paragraph2_emp}</b>{greeting.paragraph2}</p>
-            <p className="greeting-text-p2 subTitle"><b>{greeting.paragraph3_emp}</b>{greeting.paragraph3}</p>
+            {/* <p className="greeting-text-p2 subTitle"><b>{greeting.paragraph2_emp}</b>{greeting.paragraph2}</p>
+            <p className="greeting-text-p2 subTitle"><b>{greeting.paragraph3_emp}</b>{greeting.paragraph3}</p> */}
             <SocialMedia />
           </div>
         </div>
