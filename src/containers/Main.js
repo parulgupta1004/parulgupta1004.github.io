@@ -9,10 +9,10 @@ export default class Main extends Component {
   render() {
     return (
       <div>
-        {/* <Header /> */}
+        <Header />
         <Greeting />
-        {/* <Talks />
-        <Community /> */}
+        <Talks />
+        <Community />
         <Footer />
         <Top />
       </div>
