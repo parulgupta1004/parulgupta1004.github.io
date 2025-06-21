@@ -10,6 +10,7 @@ const greeting = {
   username: "Parul Gupta",
   title: "Parul Gupta",
   subTitle: "Engineering @ Meta",
+  subTitle2: "Award winner | Responsible AI | Tech Speaker | Pythonista",
   paragraph_emp: "10+ international talks ",
   paragraph: "on ongoing advancements in AI technology and women in the tech industry.",
   paragraph2_emp: "CPython Triager",
