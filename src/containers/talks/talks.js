@@ -11,6 +11,7 @@ export default function Talks() {
           <div className="project-header">
             <h1 className="heading project-heading">Top Talks</h1>
             <div>
+            <p><b>Jul 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/events/7348038506935382019/about/" className="no_decor">Guest Speaker</a> @ WAITalks, Women in AI - 'Fairness, Open Source & The Real Cost of AI Deployment'</p>
             <p><b>May 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.womentech.net/speaker/all/all/125624" className="no_decor">Speaker</a> @ Women in Tech Global Conference 2025 - 'Unlocking Your Inner Tech Rockstar: A Woman's Guide to Becoming a Software Influencer'</p>
             <p><b>May 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.dbta.com/DataSummit/2025/Parul-Gupta.aspx" className="no_decor">Speaker</a> @ Data Summit 2025 - 'Realizing the Promise of Machine Learning'</p>
             <p><b>Apr 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://pretalx.northbaypython.org/nbpy-2025/speaker/N8CGUX/" className="no_decor">Speaker</a> @ North Bay Python 2025 - 'Python Scientific Sorcery With Efficient Code'</p>
