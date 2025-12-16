@@ -5,7 +5,7 @@ function JsonLd() {
     "@type": "Person",
     "name": "Parul Gupta",
     "url": "https://parulgupta1004.github.io/",
-    "jobTitle": ["Engineering at Meta", "Tech Speaker", "Responsible AI"],
+    "jobTitle": ["Engineering", "Tech Speaker", "Responsible AI"],
     "affiliation": [
     {
         "@type": "Organization",
