@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Main from "./containers/Main";
 import ReactGA from 'react-ga';
-
+import JsonLd from './jsonld.js';
 
 function App() {
     // setup google analytics
@@ -10,9 +10,12 @@ function App() {
     ReactGA.pageview(window.location.pathname + window.location.search);
 
   return (
+    <>
+    <JsonLd />
     <div>
       <Main />
     </div>
+    </>
   );
 }
 
