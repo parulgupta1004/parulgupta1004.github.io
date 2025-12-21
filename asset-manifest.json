@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fdf69dc1.css",
+    "main.js": "/static/js/main.89249f4d.js",
+    "static/media/parul_gupta_website.jpg": "/static/media/parul_gupta_website.ef62c9d77c016fa44242.jpg",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "index.html": "/index.html",
+    "main.fdf69dc1.css.map": "/static/css/main.fdf69dc1.css.map",
+    "main.89249f4d.js.map": "/static/js/main.89249f4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdf69dc1.css",
+    "static/js/main.89249f4d.js"
+  ]
+}
