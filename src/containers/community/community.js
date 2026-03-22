@@ -11,7 +11,9 @@ export default function Community() {
           <div className="project-header">
             <h1 className="heading project-heading">Community Engagements</h1>
             <div>
-            {/* <p><b>Sep 2025</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://tapiaconference.cmd-it.org/" className="no_decor">Tapia 2025</a></p> */}
+            <p><b>Mar 2026</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://2026.pycascades.com/" className="no_decor">PyCascades 2026</a></p>
+            <p><b>Mar 2026</b>: Expo @ <a target="_blank" rel="noopener noreferrer" href="https://www.socallinuxexpo.org/scale/23x" className="no_decor">SCaLE 23x 2026</a></p>
+            <p><b>Sep 2025</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://tapiaconference.cmd-it.org/" className="no_decor">Tapia 2025</a></p>
             <p><b>Jul 2025</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://ep2025.europython.eu/" className="no_decor">EuroPython 2025</a></p>
             <p><b>Jul 2025</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://www.scipy2025.scipy.org/" className="no_decor">Scipy 2025</a></p>
             <p><b>May 2025</b>: PyLadies Auction Volunteer @ <a target="_blank" rel="noopener noreferrer" href="https://us.pycon.org/2025/" className="no_decor">PyCon US 2025</a></p>
