@@ -7,7 +7,7 @@ export default function socialMedia() {
     <div className="social-media-div">
 
       {socialMediaLinks.github ?
-      (<a href={socialMediaLinks.github} className="icon-button github" target="_blank" rel="noopener noreferrer">
+      (<a href={socialMediaLinks.github} className="icon-button github" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
         <i className="fab fa-github"></i>
         <span></span>
       </a>)
@@ -15,7 +15,7 @@ export default function socialMedia() {
       null}
 
       {socialMediaLinks.linkedin ?
-      <a href={socialMediaLinks.linkedin} className="icon-button linkedin" target="_blank" rel="noopener noreferrer" >
+      <a href={socialMediaLinks.linkedin} className="icon-button linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
         <i className="fab fa-linkedin-in"></i>
         <span></span>
       </a>
@@ -24,7 +24,7 @@ export default function socialMedia() {
 
 
        {socialMediaLinks.instagram ?
-      <a href={socialMediaLinks.instagram} className="icon-button instagram" target="_blank" rel="noopener noreferrer">
+      <a href={socialMediaLinks.instagram} className="icon-button instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile">
         <i className="fab fa-instagram"></i>
         <span></span>
       </a>
@@ -33,7 +33,7 @@ export default function socialMedia() {
 
 
     {socialMediaLinks.google_dev ?
-      <a href={socialMediaLinks.google_dev} className="icon-button google" target="_blank" rel="noopener noreferrer">
+      <a href={socialMediaLinks.google_dev} className="icon-button google" target="_blank" rel="noopener noreferrer" aria-label="Google Developer profile">
         <i className="fab fa-google"></i>
         <span></span>
       </a>

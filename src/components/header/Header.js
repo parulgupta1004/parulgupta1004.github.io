@@ -8,7 +8,7 @@ function Header() {
     <Fade top duration={1000} distance="20px">
     <div>
       <header className="header">
-        <a href="" className="logo">
+        <a href="#greeting" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
@@ -17,7 +17,7 @@ function Header() {
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon"></span>
         </label>
-        <ul className="menu">
+        <ul className="menu" role="navigation" aria-label="Main navigation">
           <li>
             <a href="#greeting">About</a>
           </li>

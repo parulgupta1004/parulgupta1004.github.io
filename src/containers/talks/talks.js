@@ -9,7 +9,7 @@ export default function Talks() {
       <div className="main" id="talks">
         <div className="project-main-div">
           <div className="project-header">
-            <h1 className="heading project-heading">Top Talks</h1>
+            <h2 className="heading project-heading">Top Talks</h2>
             <div>
             <p><b>Dec 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://2025.conference.pyladies.com/en/session/sponsor-panel-tech-industry-and-the-job-market/" className="no_decor">Guest Panel</a> @ PyLadiesCon 2025 - '<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=0EIS0sUdb5M" className="no_decor">Tech Industry & The Job Market</a>'</p>
             <p><b>Nov 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://luma.com/rzn5ymbe?tk=ruU0tQ" className="no_decor">Speaker</a> @ Women in AI NY x ACM-W NYC 2025 - Bridging Research and Industry in AI - Women Leading the Way</p>

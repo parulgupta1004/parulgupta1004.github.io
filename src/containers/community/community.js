@@ -9,7 +9,7 @@ export default function Community() {
       <div className="main" id="community">
         <div className="project-main-div">
           <div className="project-header">
-            <h1 className="heading project-heading">Community Engagements</h1>
+            <h2 className="heading project-heading">Community Engagements</h2>
             <div>
             <p><b>Mar 2026</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://2026.pycascades.com/" className="no_decor">PyCascades 2026</a></p>
             <p><b>Mar 2026</b>: Expo @ <a target="_blank" rel="noopener noreferrer" href="https://www.socallinuxexpo.org/scale/23x" className="no_decor">SCaLE 23x 2026</a></p>

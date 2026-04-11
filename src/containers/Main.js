@@ -10,9 +10,15 @@ export default class Main extends Component {
     return (
       <div>
         <Header />
-        <Greeting />
-        <Talks />
-        <Community />
+        <main>
+          <Greeting />
+          <section aria-label="Talks">
+            <Talks />
+          </section>
+          <section aria-label="Community">
+            <Community />
+          </section>
+        </main>
         <Footer />
         <Top />
       </div>
