@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import GithubProfileCard from "../../components/githubProfileCard/GithubProfileCard";
 import axios from "axios";
 import { openSource } from "../../portfolio";

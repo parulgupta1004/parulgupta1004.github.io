@@ -1,4 +1,3 @@
-import React from "react";
 import "./Header.css";
 import {Fade} from "react-reveal";
 import {greeting} from "../../portfolio";
@@ -26,6 +25,9 @@ function Header() {
           </li>
           <li>
             <a href="#community">Community</a>
+          </li>
+          <li>
+            <a href="#gallery">Gallery</a>
           </li>
         </ul>
       </header>

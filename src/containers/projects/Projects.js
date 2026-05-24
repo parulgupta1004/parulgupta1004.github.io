@@ -1,7 +1,5 @@
-import React from "react";
 import "./Projects.css";
 import { projectSection } from "../../portfolio";
-import { Fade } from "react-reveal";
 
 export default function Projects() {
   function openUrlInNewTab(url) {

@@ -1,4 +1,3 @@
-import React from "react";
 import "../projects/Projects.css";
 import "./community.css";
 import { Fade } from "react-reveal";
@@ -10,7 +9,11 @@ export default function Community() {
         <div className="project-main-div">
           <div className="project-header">
             <h2 className="heading project-heading">Community Engagements</h2>
-            <div>
+            <h2 className="section-tag">Judge</h2><h2 className="section-tag">Reviewer</h2><h2 className="section-tag">Mentor</h2><h2 className="section-tag">Volunteer</h2>
+            <div className="scroll-box">
+            {/* <p><b>Sep 2026</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://tapiaconference.cmd-it.org/" className="no_decor">Tapia 2026</a></p>
+            <p><b>Jul 2026</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://ep2026.europython.eu/" className="no_decor">EuroPython 2026</a></p> */}
+            <p><b>May 2026</b>: Talk Mentor & Expo @ <a target="_blank" rel="noopener noreferrer" href="https://us.pycon.org/2026/" className="no_decor">PyCon US 2026</a></p>
             <p><b>Mar 2026</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://2026.pycascades.com/" className="no_decor">PyCascades 2026</a></p>
             <p><b>Mar 2026</b>: Expo @ <a target="_blank" rel="noopener noreferrer" href="https://www.socallinuxexpo.org/scale/23x" className="no_decor">SCaLE 23x 2026</a></p>
             <p><b>Sep 2025</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://tapiaconference.cmd-it.org/" className="no_decor">Tapia 2025</a></p>
@@ -26,12 +29,12 @@ export default function Community() {
             {/* <p><b>Feb 2025</b>: Judge @ <a target="_blank" rel="noopener noreferrer" href="https://gdg.community.dev/events/details/google-gdg-on-campus-higher-school-of-communication-of-tunis-supcom-ariana-tunisia-presents-ai-odyssey-hackathon/cohost-gdg-on-campus-higher-school-of-communication-of-tunis-supcom-ariana-tunisia" className="no_decor">AI Odyssey Hackathon 2025</a>, GDG, Sup'Com, Ariana, Tunisia</p> */}
             <p><b>Jan 2025</b>: Career Exploration Lounge @ <a target="_blank" rel="noopener noreferrer" href="https://rewritingthecode.org/event/tech-connect-tech-exploration-recruiting-event/" className="no_decor">Re-writing The Code - Tech Connect 2025</a></p>
             <p><b>Jun-Aug 2024</b>: Mentor @ <a target="_blank" rel="noopener noreferrer" href="https://cicscareers.notion.site/Alumni-Mentorship-Program-AMP-87a61d3fe26c4c1ba688d137609881f7" className="no_decor">Alumni Mentorship Program (AMP) 2024</a>, UMass CICS</p>
-            {/* <p><b>Jan 2025</b>: Featured @ <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/posts/womentech-network_womenintech-networking-motivation-activity-7290453345729761281-EIcw" className="no_decor">WomenTech Network Highlights 2025</a></p> */}
-            {/* <p><b>Dec 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://conference.pyladies.com/" className="no_decor">PyLadies Con 2024</a></p>
+            <p><b>Jan 2025</b>: Featured @ <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/posts/womentech-network_womenintech-networking-motivation-activity-7290453345729761281-EIcw" className="no_decor">WomenTech Network Highlights 2025</a></p>
+            <p><b>Dec 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://conference.pyladies.com/" className="no_decor">PyLadies Con 2024</a></p>
             <p><b>Oct 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://discuss.python.org/t/parul-gupta-and-jason-fried-added-to-the-triage-team/67686" className="no_decor">Python Triager Open-Source</a> @ Python Software Foundation</p>
             <p><b>Sep 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://discuss.python.org/t/2024-core-dev-sprint-in-bellevue-wa-september-23-27/39227" className="no_decor">Python Core Dev Sprints 2024</a></p>
             <p><b>Jul 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/pyninsula-python-peninsula-meetup/events/301678708/" className="no_decor">Python Pyninsula Meetup 2024</a></p>
-            <p><b>Jun 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://2024.northbaypython.org/" className="no_decor">North Bay Python 2024</a></p> */}
+            <p><b>Jun 2024</b>: <a target="_blank" rel="noopener noreferrer" href="https://2024.northbaypython.org/" className="no_decor">North Bay Python 2024</a></p>
             <p><b>May 2024</b>: Session Runner @ <a target="_blank" rel="noopener noreferrer" href="https://us.pycon.org/2024/" className="no_decor">PyCon US 2024</a></p>
             <p><b>Mar 2024</b>: Expo @ <a target="_blank" rel="noopener noreferrer" href="https://www.socallinuxexpo.org/scale/21x" className="no_decor">SCaLE 21x 2024</a></p>
             <p><b>Sep 2023</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://ghc.anitab.org/" className="no_decor">Grace Hopper Celebration 2023</a></p>

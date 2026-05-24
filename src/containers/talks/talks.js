@@ -1,4 +1,3 @@
-import React from "react";
 import "../projects/Projects.css";
 import "./talks.css";
 import { Fade } from "react-reveal";
@@ -10,7 +9,9 @@ export default function Talks() {
         <div className="project-main-div">
           <div className="project-header">
             <h2 className="heading project-heading">Top Talks</h2>
-            <div>
+            <h2 className="section-tag">Python</h2><h2 className="section-tag">AI Ethics</h2><h2 className="section-tag">Responsible AI</h2><h2 className="section-tag">AI Acceleration</h2><h2 className="section-tag">Scientific Coding</h2>
+            <div className="scroll-box">
+            <p><b>May 2026</b>: <a target="_blank" rel="noopener noreferrer" href="https://us.pycon.org/2026/" className="no_decor">Panel by Meta</a> @ PyCon US 2026 - 'Careers in Python'</p>
             <p><b>Dec 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://2025.conference.pyladies.com/en/session/sponsor-panel-tech-industry-and-the-job-market/" className="no_decor">Guest Panel</a> @ PyLadiesCon 2025 - '<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=0EIS0sUdb5M" className="no_decor">Tech Industry & The Job Market</a>'</p>
             <p><b>Nov 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://luma.com/rzn5ymbe?tk=ruU0tQ" className="no_decor">Speaker</a> @ Women in AI NY x ACM-W NYC 2025 - Bridging Research and Industry in AI - Women Leading the Way</p>
             <p><b>Sept 2025</b>: <a target="_blank" rel="noopener noreferrer" href="https://pretalx.com/pybeach2025/talk/HQ8SAA/" className="no_decor">Speaker</a> @ PyBeach 2025 - '<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=BdTv07T7hmg" className="no_decor">Python Packaging Expressway: A Path Worth Taking</a>'</p>
