@@ -41,7 +41,7 @@ export default function Gallery() {
             }}
           >
             {youtubeVideos.map((url) => (
-              <YouTubeEmbed key={url} url={url} width="100%" />
+              <YouTubeEmbed key={url} url={url} width="100%" height={220}/>
             ))}
           </div>
 
@@ -62,7 +62,7 @@ export default function Gallery() {
                 <LinkedInEmbed
                   url={embedUrl}
                   width="100%"
-                  height={570}
+                  height={320}
                 />
                 <div
                   style={{
@@ -108,15 +108,21 @@ export default function Gallery() {
           }}
           >
           {instagramPosts.map((url, i) => (
-              <div
+            <div
               key={i}
               style={{
-                  height: "420px",
-                  overflow: "hidden",
+                width: "100%",
+                minHeight: "540px",
+                display: "flex",
+                justifyContent: "center",
+                overflow: "visible",
               }}
-              >
-              <InstagramEmbed url={url} width="100%" />
-              </div>
+            >
+              <InstagramEmbed
+                url={url}
+                width={328}
+              />
+            </div>
           ))}
           </div>
           <div
