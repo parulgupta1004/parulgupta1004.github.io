@@ -3,7 +3,6 @@ import "./gallery.css";
 import "../projects/Projects.css";
 import "../community/community.css";
 
-import { Fade } from "react-reveal";
 
 const instagramPosts = [
   'https://www.instagram.com/p/DYdGxHqkoKx/?utm_source=ig_embed&amp;utm_campaign=loading',
@@ -25,7 +24,7 @@ const youtubeVideos = [
 
 export default function Gallery() {
   return (
-    <Fade bottom duration={1000}>
+    <>
     <div id="gallery" className="main" >
         <div className="project-main-div">
           <div className="project-header">
@@ -41,7 +40,7 @@ export default function Gallery() {
             }}
           >
             {youtubeVideos.map((url) => (
-              <YouTubeEmbed key={url} url={url} width="100%" height={220}/>
+              <YouTubeEmbed key={url} url={url} width="100%" height={320}/>
             ))}
           </div>
 
@@ -112,7 +111,7 @@ export default function Gallery() {
               key={i}
               style={{
                 width: "100%",
-                minHeight: "540px",
+                minHeight: "320px",
                 display: "flex",
                 justifyContent: "center",
                 overflow: "visible",
@@ -148,14 +147,11 @@ export default function Gallery() {
               More on Instagram
           </a>
           </div>
-
-       
-        
       </div>
 
        </div>
        </div>
         </div>
-      </Fade>
+      </>
   );
 }

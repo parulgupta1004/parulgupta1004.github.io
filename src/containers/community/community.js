@@ -1,10 +1,9 @@
 import "../projects/Projects.css";
 import "./community.css";
-import { Fade } from "react-reveal";
 export default function Community() {
 
   return (
-    <Fade bottom duration={1000}>
+    <>
       <div className="main" id="community">
         <div className="project-main-div">
           <div className="project-header">
@@ -49,6 +48,6 @@ export default function Community() {
             </div>
           </div>
       </div>
-    </Fade>
+    </>
   );
 }

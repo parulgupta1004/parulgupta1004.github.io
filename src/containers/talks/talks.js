@@ -1,10 +1,9 @@
 import "../projects/Projects.css";
 import "./talks.css";
-import { Fade } from "react-reveal";
 export default function Talks() {
 
   return (
-    <Fade bottom duration={1000}>
+    <>
       <div className="main" id="talks">
         <div className="project-main-div">
           <div className="project-header">
@@ -39,6 +38,6 @@ export default function Talks() {
             </div>
           </div>
       </div>
-    </Fade>
+    </>
   );
 }
