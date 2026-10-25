@@ -10,8 +10,8 @@ export default function Community() {
             <h2 className="heading project-heading">Community Engagements</h2>
             <h2 className="section-tag">Judge</h2><h2 className="section-tag">Reviewer</h2><h2 className="section-tag">Mentor</h2><h2 className="section-tag">Volunteer</h2>
             <div className="scroll-box">
-            {/* <p><b>Sep 2026</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://tapiaconference.cmd-it.org/" className="no_decor">Tapia 2026</a></p>
-            <p><b>Jul 2026</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://ep2026.europython.eu/" className="no_decor">EuroPython 2026</a></p> */}
+            <p><b>Sep 2026</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://tapiaconference.cmd-it.org/" className="no_decor">Tapia 2026</a></p>
+            <p><b>Jul 2026</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://ep2026.europython.eu/" className="no_decor">EuroPython 2026</a></p>
             <p><b>May 2026</b>: Talk Mentor & Expo @ <a target="_blank" rel="noopener noreferrer" href="https://us.pycon.org/2026/" className="no_decor">PyCon US 2026</a></p>
             <p><b>Mar 2026</b>: Reviewer @ <a target="_blank" rel="noopener noreferrer" href="https://2026.pycascades.com/" className="no_decor">PyCascades 2026</a></p>
             <p><b>Mar 2026</b>: Expo @ <a target="_blank" rel="noopener noreferrer" href="https://www.socallinuxexpo.org/scale/23x" className="no_decor">SCaLE 23x 2026</a></p>
