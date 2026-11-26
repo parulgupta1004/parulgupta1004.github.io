@@ -1,5 +1,5 @@
 {
-  "homepage": "https://parulgupta1004@github.io/",
+  "homepage": "https://parulgupta1004.github.io/",
   "name": "parulgupta1004.github.io",
   "version": "0.1.0",
   "private": true,
@@ -22,12 +22,14 @@
     "react-twitter-embed": "3.0.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh workflow run daily-pypi-stats.yml --ref master",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postbuild": "node scripts/prerender.cjs",
+    "refresh:stats": "node scripts/update-pypi-stats.cjs",
+    "test:stats": "node --test scripts/update-pypi-stats.test.cjs"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,0 +1,54 @@
+{
+  "LinkedIn": [
+    {
+      "title": "Responsible AI recognition",
+      "excerpt": "Thank you for honoring me and my contributions!",
+      "date": "2025-06-21",
+      "dateLabel": "Jun 21, 2025",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7342271834983231488/",
+      "image": "/images/social-post-0.webp"
+    },
+    {
+      "title": "JupyterCon 2023",
+      "excerpt": "Presenting and connecting with fellow technologists at JupyterCon.",
+      "date": "2023-05-24",
+      "dateLabel": "May 24, 2023",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7067199153621135362/",
+      "image": "/images/social-post-1.webp"
+    },
+    {
+      "title": "WomenTech Global Awards",
+      "excerpt": "Grateful for the 2020 nomination and an inspiring conference.",
+      "date": "2020-10-07",
+      "dateLabel": "Oct 7, 2020",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6719411812103716864/",
+      "image": "/images/social-post-2.webp"
+    }
+  ],
+  "Instagram": [
+    {
+      "title": "PyCon US 2026",
+      "excerpt": "PyCon has a special place in my heart.",
+      "date": "2026-05-17",
+      "dateLabel": "May 17, 2026",
+      "url": "https://www.instagram.com/p/DYdGxHqkoKx/",
+      "image": "/images/social-post-3.webp"
+    },
+    {
+      "title": "PyBeach 2025",
+      "excerpt": "A talk I really enjoyed preparing and sharing.",
+      "date": "2025-10-18",
+      "dateLabel": "Oct 18, 2025",
+      "url": "https://www.instagram.com/p/DP-G9j-D1sS/",
+      "image": "/images/social-post-4.webp"
+    },
+    {
+      "title": "PyBay 2024",
+      "excerpt": "Presenting at PyBay and meeting an inspiring crowd.",
+      "date": "2024-09-29",
+      "dateLabel": "Sep 29, 2024",
+      "url": "https://www.instagram.com/p/DAguvWPypc8/",
+      "image": "/images/social-post-5.webp"
+    }
+  ]
+}

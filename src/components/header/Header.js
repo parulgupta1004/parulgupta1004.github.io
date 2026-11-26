@@ -1,38 +1,68 @@
+import ExternalLink from "../externalLink/ExternalLink";
+import { navigation } from "../../data/navigation";
+import { greeting, socialMediaLinks } from "../../portfolio";
+import useActiveSection from "../../hooks/useActiveSection";
+import useDismissibleMenu from "../../hooks/useDismissibleMenu";
 import "./Header.css";
-import {Fade} from "react-reveal";
-import {greeting} from "../../portfolio";
 
-function Header() {
+export default function Header() {
+  const { activeSection, setActiveSection } = useActiveSection(navigation);
+  const menu = useDismissibleMenu();
+  const selectSection = (id) => {
+    setActiveSection(id);
+    menu.close();
+  };
+
   return (
-    <Fade top duration={1000} distance="20px">
-    <div>
-      <header className="header">
-        <a href="#greeting" className="logo">
-          <span className="grey-color"> &lt;</span>
-          <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
+    <header className="site-header" ref={menu.containerRef}>
+      <a className="skip-link" href="#main-content">
+        Skip to content
+      </a>
+      <div className="page-container header-inner">
+        <a
+          href="#greeting"
+          className="site-brand"
+          onClick={() => selectSection("greeting")}
+        >
+          <span className="brand-monogram" aria-hidden="true">
+            PG
+          </span>
+          <span>{greeting.username}</span>
         </a>
-        <input className="menu-btn" type="checkbox" id="menu-btn" />
-        <label className="menu-icon" htmlFor="menu-btn">
-          <span className="navicon"></span>
-        </label>
-        <ul className="menu" role="navigation" aria-label="Main navigation">
-          <li>
-            <a href="#greeting">About</a>
-          </li>
-          <li>
-            <a href="#talks">Talks</a>
-          </li>
-          <li>
-            <a href="#community">Community</a>
-          </li>
-          <li>
-            <a href="#gallery">Gallery</a>
-          </li>
-        </ul>
-      </header>
-    </div>
-    </Fade>
+        <button
+          className="menu-toggle"
+          ref={menu.toggleRef}
+          type="button"
+          aria-expanded={menu.isOpen}
+          aria-controls="site-navigation"
+          onClick={menu.toggle}
+        >
+          {menu.isOpen ? "Close" : "Menu"}
+          <span aria-hidden="true">{menu.isOpen ? "×" : "+"}</span>
+        </button>
+        <nav
+          id="site-navigation"
+          className={`site-navigation${menu.isOpen ? " is-open" : ""}`}
+          aria-label="Main navigation"
+        >
+          {navigation.map(({ id, label }) => (
+            <a
+              key={id}
+              href={`#${id}`}
+              aria-current={activeSection === id ? "location" : undefined}
+              onClick={() => selectSection(id)}
+            >
+              {label}
+            </a>
+          ))}
+          <ExternalLink
+            className="nav-connect"
+            href={socialMediaLinks.linkedin}
+          >
+            LinkedIn
+          </ExternalLink>
+        </nav>
+      </div>
+    </header>
   );
 }
-export default Header;

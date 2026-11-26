@@ -1,21 +1,7 @@
-import React from "react";
-import "./App.css";
 import Main from "./containers/Main";
-import ReactGA from 'react-ga4';
-import JsonLd from './jsonld.js';
+import AnalyticsTracker from "./AnalyticsTracker";
+import JsonLd from "./jsonld";
 
-function App() {
-    // setup google analytics
-    ReactGA.initialize('G-ZKFQ0EFNKY');
-    
-  return (
-    <>
-    <JsonLd />
-    <div>
-      <Main />
-    </div>
-    </>
-  );
+export default function App() {
+  return <><JsonLd /><Main /><AnalyticsTracker /></>;
 }
-
-export default App;

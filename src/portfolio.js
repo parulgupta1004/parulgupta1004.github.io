@@ -1,22 +1,23 @@
-
 /* Change this file to get your personal Portfolio */
 
 // Your Summary And Greeting Section
-
-import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Parul Gupta",
   title: "Parul Gupta",
-  subTitle: "Engineering @ Meta",
-  subTitle2: "Award winner | Responsible AI Engineer | Tech Speaker | Pythonista",
+  subTitle: "Software Engineer at Meta",
+  subTitle2:
+    "Award winner | Responsible AI Engineer | Tech Speaker | Pythonista",
   subTitle3: "Open source Maintainer, Fairlearn",
   subTitle4: "Creator of Fair-Seldonian",
   fairlearnUrl: "https://pypi.org/project/fairlearn/",
   fairSeldonianUrl: "https://pypi.org/project/fair-seldonian/",
-  paragraph_emp: "30+ advanceed tech talks ",
-  paragraph: "on ongoing advancements in AI technology and women in the tech industry.",
+  summary:
+    "I work on responsible AI and open source Python tools, and share practical insights on machine learning fairness, Python development, and careers in technology.",
+  paragraph_emp: "30+ technical talks ",
+  paragraph:
+    "on ongoing advancements in AI technology and women in the tech industry.",
   paragraph2_emp: "CPython Triager",
   paragraph2: ", Python Software Foundation (PSF).",
   paragraph3_emp: "Early contributor to Fairlearn",
@@ -34,43 +35,48 @@ const socialMediaLinks = {
 const acadSection = {
   title: "Academics",
   subTitle: "EDUCATION",
-  thunder: emoji("⚡ "),
+  thunder: "⚡ ",
   subTitle2: "CERTIFICATION",
 
   softwareSkills1: [
     {
       skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "fab fa-python",
     },
     {
       skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
+      fontAwesomeClassname: "fab fa-java",
     },
     {
       skillName: "R",
-      fontAwesomeClassname: "fab fa-r-project"
-    }
-
+      fontAwesomeClassname: "fab fa-r-project",
+    },
   ],
 };
 
 const Workex = {
   title: "Work Experience",
-  subtitle: "Companies I have worked in..."
+  subtitle: "Companies I have worked in...",
 };
 
 const projectSection = {
   title: "Machine Learning Projects",
   subtitle: "Some Cool Stuff that I have done in machine learning...",
-  title2: "Other Projects"
+  title2: "Other Projects",
 };
 
 // Blogs Section
 
 const blogSection = {
-
   title: "Blogs",
-  subtitle: "I love to write and share the knowledge gained..."
+  subtitle: "I love to write and share the knowledge gained...",
 };
 
-export { greeting, socialMediaLinks, acadSection, Workex, projectSection, blogSection};
+export {
+  greeting,
+  socialMediaLinks,
+  acadSection,
+  Workex,
+  projectSection,
+  blogSection,
+};

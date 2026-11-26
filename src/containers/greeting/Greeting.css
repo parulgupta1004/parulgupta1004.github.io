@@ -1,163 +1,98 @@
-.main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 4rem auto 0;
-}
-
 .greet-main {
-  box-sizing: border-box;
-  width: 90%;
-  max-width: 1200px;
-  margin: 2rem auto 4rem;
-  padding: 48px 10px;
-  border-top: 1px solid #dce1e6;
-  border-bottom: 1px solid #dce1e6;
-  color: #243447;
+  padding-top: 64px;
+  padding-bottom: 56px;
 }
-
 .greeting-main {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-columns: 1.05fr 1fr;
   align-items: center;
-  gap: 56px;
+  gap: 64px;
 }
-
+.greeting-text {
+  margin: 12px 0 28px;
+  color: var(--ink);
+  font-size: clamp(48px, 5.4vw, 68px);
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+.greeting-roles {
+  padding: 0;
+}
+.greeting-text-p {
+  margin: 0 0 14px;
+  font-size: 21px;
+  font-weight: 500;
+}
+.greeting-text-p2 {
+  margin: 5px 0;
+  font-size: 18px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.greeting-roles a {
+  color: var(--ink);
+  text-decoration-color: var(--border-strong);
+  text-underline-offset: 4px;
+}
+.greeting-roles a:hover {
+  color: var(--accent);
+}
+.greeting-actions {
+  margin-top: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 28px;
+}
 .greeting-image-div {
-  padding: 8px;
-  border: 1px solid #dce1e6;
-  background: #fafbfc;
+  margin: 0;
+  min-width: 0;
 }
-
-.greeting-image-div > img {
+.portrait-frame {
+  padding: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 3px;
+}
+.greeting-image-div img {
   display: block;
   width: 100%;
   height: auto;
 }
-
-.greeting-text {
-  margin: 0 0 24px;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(36px, 4vw, 56px);
-  font-weight: 400;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
-}
-
-.greeting-roles {
-  padding-left: 18px;
-  border-left: 2px solid #52677d;
-}
-
-.greeting-text-p {
-  margin: 0 0 8px;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1.5;
-}
-
-.greeting-text-p2 {
-  margin: 0;
-  font-size: 17px;
-  line-height: 1.6;
-  color: #46576a;
-}
-
-.greeting-summary {
-  max-width: 480px;
-  margin: 24px 0;
-  font-size: 15px;
-  line-height: 1.8;
-  color: #56616e;
-}
-
-.greeting-roles a {
-  color: inherit;
-  text-decoration: underline;
-  text-decoration-color: #a2aebb;
-  text-underline-offset: 4px;
-}
-
-.greeting-roles a:hover {
-  color: #243447;
-  text-decoration-color: currentColor;
-}
-
-.greeting-roles a:focus-visible {
-  outline: 2px solid #52677d;
-  outline-offset: 4px;
-}
-
-.greet-main .social-media-div {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  font-size: 1rem;
-}
-
-.greet-main .icon-button {
-  display: inline-flex;
-  margin: 0;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-.greet-main .icon-button i {
-  width: 40px;
-  height: 40px;
-  margin: 0;
-  border: 1px solid #dce1e6;
-  border-radius: 4px;
-  background: #fff;
-  color: #34475b;
-  font-size: 18px;
-  line-height: 40px;
-  transition: background-color 150ms ease, color 150ms ease;
-}
-
-.greet-main .icon-button:hover i,
-.greet-main .icon-button:focus-visible i {
-  background: #243447;
-  color: #fff;
-}
-
-.greet-main .icon-button:focus-visible {
-  outline: 2px solid #52677d;
-  outline-offset: 4px;
-}
-
-@media (max-width: 960px) {
+@media (max-width: 1100px) {
   .greeting-main {
-    gap: 32px;
+    gap: 36px;
   }
 }
-
 @media (max-width: 768px) {
   .greet-main {
-    margin: 1rem auto 2.5rem;
-    padding: 28px 0;
+    padding-top: 36px;
+    padding-bottom: 40px;
   }
-
   .greeting-main {
     grid-template-columns: minmax(0, 1fr);
     gap: 28px;
   }
-
-  .greeting-image-div {
-    width: 100%;
-    max-width: 480px;
-    box-sizing: border-box;
-    justify-self: center;
-  }
-
   .greeting-text {
-    margin-bottom: 20px;
+    font-size: clamp(44px, 10vw, 64px);
   }
+  .greeting-image-div {
+    max-width: 580px;
+  }
+}
 
-  .greeting-text-p {
-    font-size: 18px;
-  }
-
-  .greeting-text-p2 {
-    font-size: 16px;
-  }
+.greeting-text-div > .eyebrow {
+  color: var(--accent);
+}
+.greeting-primary {
+  gap: 10px;
+  color: var(--ink);
+  text-decoration: none;
+}
+.greeting-primary:hover {
+  color: var(--accent);
+}
+.greeting-primary:hover .link-label {
+  text-decoration: underline;
 }

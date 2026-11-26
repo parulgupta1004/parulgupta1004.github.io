@@ -1,0 +1,758 @@
+{
+  "talks": {
+    "id": "talks",
+    "title": "Talks",
+    "topics": ["Python", "Responsible AI", "AI Ethics", "Machine Learning"],
+    "archiveLabel": "talks",
+    "entries": [
+      {
+        "id": "talks-01",
+        "date": "May 2026",
+        "parts": [
+          {
+            "href": "https://us.pycon.org/2026/",
+            "text": "Panel by Meta"
+          },
+          {
+            "text": " @ PyCon US 2026 - 'Careers in Python'"
+          }
+        ]
+      },
+      {
+        "id": "talks-02",
+        "date": "Dec 2025",
+        "parts": [
+          {
+            "href": "https://2025.conference.pyladies.com/en/session/sponsor-panel-tech-industry-and-the-job-market/",
+            "text": "Guest Panel"
+          },
+          {
+            "text": " @ PyLadiesCon 2025 - '"
+          },
+          {
+            "href": "https://www.youtube.com/watch?v=0EIS0sUdb5M",
+            "text": "Tech Industry & The Job Market"
+          },
+          {
+            "text": "'"
+          }
+        ]
+      },
+      {
+        "id": "talks-03",
+        "date": "Nov 2025",
+        "parts": [
+          {
+            "href": "https://luma.com/rzn5ymbe?tk=ruU0tQ",
+            "text": "Speaker"
+          },
+          {
+            "text": " @ Women in AI NY x ACM-W NYC 2025 - Bridging Research and Industry in AI - Women Leading the Way"
+          }
+        ]
+      },
+      {
+        "id": "talks-04",
+        "date": "Sept 2025",
+        "parts": [
+          {
+            "href": "https://pretalx.com/pybeach2025/talk/HQ8SAA/",
+            "text": "Speaker"
+          },
+          {
+            "text": " @ PyBeach 2025 - '"
+          },
+          {
+            "href": "https://www.youtube.com/watch?v=BdTv07T7hmg",
+            "text": "Python Packaging Expressway: A Path Worth Taking"
+          },
+          {
+            "text": "'"
+          }
+        ]
+      },
+      {
+        "id": "talks-05",
+        "date": "Jul 2025",
+        "parts": [
+          {
+            "href": "https://www.linkedin.com/events/7348038506935382019/about/",
+            "text": "Guest Podcast"
+          },
+          {
+            "text": " @ WAITalks, Women in AI - 'Fairness, Open Source & The Real Cost of AI Deployment'"
+          }
+        ]
+      },
+      {
+        "id": "talks-06",
+        "date": "Jul 2025",
+        "parts": [
+          {
+            "href": "https://www.scipy2025.scipy.org/",
+            "text": "Presenter"
+          },
+          {
+            "text": " @ SciPy Conference 2025 - 'Pythonic Potions: Mastering Scientific Sorcery With Efficient AI Coding'"
+          }
+        ]
+      },
+      {
+        "id": "talks-07",
+        "date": "May 2025",
+        "parts": [
+          {
+            "href": "https://www.womentech.net/speaker/all/all/125624",
+            "text": "Speaker"
+          },
+          {
+            "text": " @ Women in Tech Global Conference 2025 - 'Unlocking Your Inner Tech Rockstar: A Woman's Guide to Becoming a Software Influencer'"
+          }
+        ]
+      },
+      {
+        "id": "talks-08",
+        "date": "May 2025",
+        "parts": [
+          {
+            "href": "https://www.dbta.com/DataSummit/2025/Parul-Gupta.aspx",
+            "text": "Speaker"
+          },
+          {
+            "text": " @ Data Summit 2025 - 'Realizing the Promise of Machine Learning'"
+          }
+        ]
+      },
+      {
+        "id": "talks-09",
+        "date": "Apr 2025",
+        "parts": [
+          {
+            "href": "https://pretalx.northbaypython.org/nbpy-2025/speaker/N8CGUX/",
+            "text": "Speaker"
+          },
+          {
+            "text": " @ North Bay Python 2025 - '"
+          },
+          {
+            "href": "https://www.youtube.com/watch?v=glkTprUyJEM",
+            "text": "Python Scientific Sorcery With Efficient Code"
+          },
+          {
+            "text": "'"
+          }
+        ]
+      },
+      {
+        "id": "talks-10",
+        "date": "Apr 2025",
+        "parts": [
+          {
+            "href": "https://www.umassai.com/#events",
+            "text": "Invited Workshop"
+          },
+          {
+            "text": " @ MassAI, University of Massachusetts Amherst - 'Fairness in AI'"
+          }
+        ]
+      },
+      {
+        "id": "talks-11",
+        "date": "Feb 2025",
+        "parts": [
+          {
+            "href": "https://www.meetup.com/pyninsula-python-peninsula-meetup/events/305983063/",
+            "text": "Speaker"
+          },
+          {
+            "text": " @ Pyninsula 2025 - 'Pythonic Potions: Mastering Scientific Sorcery With Efficient Code'"
+          }
+        ]
+      },
+      {
+        "id": "talks-12",
+        "date": "Feb 2025",
+        "parts": [
+          {
+            "href": "https://www.cics.umass.edu/events/ace-coding-interview-atci",
+            "text": "Invited Workshop"
+          },
+          {
+            "text": " @ Career Development Workshop, University of Massachusetts Amherst - 'Ace the Coding Interview (ATCI)'"
+          }
+        ]
+      },
+      {
+        "id": "talks-13",
+        "date": "Feb 2025",
+        "parts": [
+          {
+            "href": "https://2025.pycascades.com/program/talks/pyladies-panel/",
+            "text": "Guest Panel"
+          },
+          {
+            "text": " @ PyCascades 2025 - '"
+          },
+          {
+            "href": "https://www.youtube.com/watch?v=x-xQj6EcQbI",
+            "text": "PyLadies Panel: Talking about experiences and roles within the Python community"
+          },
+          {
+            "text": "'"
+          }
+        ]
+      },
+      {
+        "id": "talks-14",
+        "date": "Feb 2025",
+        "parts": [
+          {
+            "href": "https://gdg.community.dev/events/details/google-gdg-on-campus-higher-school-of-communication-of-tunis-supcom-ariana-tunisia-presents-ai-odyssey-hackathon/cohost-gdg-on-campus-higher-school-of-communication-of-tunis-supcom-ariana-tunisia",
+            "text": "Keynote Speaker"
+          },
+          {
+            "text": " @ AI Odyssey Hackathon 2025, GDG, Sup'Com, Ariana, Tunisia - 'Breaking the Bias: In Tech, In AI and In Society'"
+          }
+        ]
+      },
+      {
+        "id": "talks-15",
+        "date": "Feb 2025",
+        "parts": [
+          {
+            "href": "https://www.conf42.com/python2025",
+            "text": "Keynote Speaker"
+          },
+          {
+            "text": " @ Conf42 Python 2025 - '"
+          },
+          {
+            "href": "https://www.conf42.com/Python_2025_Parul_Gupta_ai_ml_prototyping",
+            "text": "Accelerating AI Lifecycle: Fast ML Prototyping Insights"
+          },
+          {
+            "text": "'"
+          }
+        ]
+      },
+      {
+        "id": "talks-16",
+        "date": "Jan 2025",
+        "parts": [
+          {
+            "href": "https://gdg.community.dev/events/details/google-gdg-on-campus-nanyang-technological-university-singapore-singapore-presents-fairness-in-ai-with-parul-gupta/",
+            "text": "Guest Podcast"
+          },
+          {
+            "text": " @ Google Developer Group (GDG), NTU Singapore - '"
+          },
+          {
+            "href": "https://www.linkedin.com/events/7289910200214396928/",
+            "text": "Fairness in AI with Parul Gupta"
+          },
+          {
+            "text": "'"
+          }
+        ]
+      },
+      {
+        "id": "talks-17",
+        "date": "Nov 2024",
+        "parts": [
+          {
+            "href": "https://gdg.community.dev/events/details/google-gdg-silicon-valley-presents-responsible-ai-conference-devfest-silicon-valley/",
+            "text": "Speaker"
+          },
+          {
+            "text": " @ Responsible AI Conference, Google Devfest Silicon Valley 2024 - '50 Shades Of Fairness: Into The World Of Constraints'"
+          }
+        ]
+      },
+      {
+        "id": "talks-18",
+        "date": "Sep 2024",
+        "parts": [
+          {
+            "href": "https://2024.pybay.org/speaking/",
+            "text": "Speaker"
+          },
+          {
+            "text": " @ PyBay 2024 - '"
+          },
+          {
+            "href": "https://www.youtube.com/watch?v=RgFe5tc-3TQ&t=43s",
+            "text": "Accelerating ML Prototyping: The Pythonic Way"
+          },
+          {
+            "text": "'"
+          }
+        ]
+      },
+      {
+        "id": "talks-19",
+        "date": "Apr 2024",
+        "parts": [
+          {
+            "href": "https://www.womentech.net/speaker/all/all/101702",
+            "text": "Speaker"
+          },
+          {
+            "text": " @ Women In Tech Global Conference 2024 - 'Early Career Branding: How I Built My Niche'"
+          }
+        ]
+      },
+      {
+        "id": "talks-20",
+        "date": "May 2023",
+        "parts": [
+          {
+            "href": "https://cfp.jupytercon.com/2023/speaker/AWYZRF/",
+            "text": "Speaker"
+          },
+          {
+            "text": " @ JupyterCon 2023, France - '"
+          },
+          {
+            "href": "https://cfp.jupytercon.com/2023/talk/7X3G8H/",
+            "text": "A tale of notebook recovery: session reconnects, execution recoveries and more"
+          },
+          {
+            "text": "'"
+          }
+        ]
+      },
+      {
+        "id": "talks-21",
+        "date": "May 2023",
+        "parts": [
+          {
+            "href": "https://www.womentech.net/speaker/all/all/79305",
+            "text": "Speaker"
+          },
+          {
+            "text": " @ Women In Tech Global Conference 2023 - 'Early Career Mentorship: My Journey From Mentee To Mentor'"
+          }
+        ]
+      },
+      {
+        "id": "talks-22",
+        "date": "Jun 2020",
+        "parts": [
+          {
+            "href": "https://www.womentech.net/speaker/Parul/Gupta/23931",
+            "text": "Speaker"
+          },
+          {
+            "text": " @ Women In Tech Global Conference 2020 - '"
+          },
+          {
+            "href": "https://www.youtube.com/watch?v=eMd8GHFy_zw&t=16s",
+            "text": "(Un)Fair Machine Learning"
+          },
+          {
+            "text": "' ("
+          },
+          {
+            "href": "https://github.com/parul100495/parul100495.github.io/blob/source/src/assests/files/Certificate-nominee--womentech.pdf",
+            "text": "Nominated - WomenTech Global Awards"
+          },
+          {
+            "text": ")"
+          }
+        ]
+      }
+    ]
+  },
+  "community": {
+    "id": "community",
+    "title": "Community",
+    "topics": ["Mentoring", "Reviewing", "Volunteering"],
+    "archiveLabel": "engagements",
+    "entries": [
+      {
+        "id": "community-01",
+        "date": "Sep 2026",
+        "parts": [
+          {
+            "text": "Reviewer @ "
+          },
+          {
+            "href": "https://tapiaconference.cmd-it.org/",
+            "text": "Tapia 2026"
+          }
+        ]
+      },
+      {
+        "id": "community-02",
+        "date": "Jul 2026",
+        "parts": [
+          {
+            "text": "Reviewer @ "
+          },
+          {
+            "href": "https://ep2026.europython.eu/",
+            "text": "EuroPython 2026"
+          }
+        ]
+      },
+      {
+        "id": "community-03",
+        "date": "May 2026",
+        "parts": [
+          {
+            "text": "Talk Mentor & Expo @ "
+          },
+          {
+            "href": "https://us.pycon.org/2026/",
+            "text": "PyCon US 2026"
+          }
+        ]
+      },
+      {
+        "id": "community-04",
+        "date": "Mar 2026",
+        "parts": [
+          {
+            "text": "Reviewer @ "
+          },
+          {
+            "href": "https://2026.pycascades.com/",
+            "text": "PyCascades 2026"
+          }
+        ]
+      },
+      {
+        "id": "community-05",
+        "date": "Mar 2026",
+        "parts": [
+          {
+            "text": "Expo @ "
+          },
+          {
+            "href": "https://www.socallinuxexpo.org/scale/23x",
+            "text": "SCaLE 23x 2026"
+          }
+        ]
+      },
+      {
+        "id": "community-06",
+        "date": "Sep 2025",
+        "parts": [
+          {
+            "text": "Reviewer @ "
+          },
+          {
+            "href": "https://tapiaconference.cmd-it.org/",
+            "text": "Tapia 2025"
+          }
+        ]
+      },
+      {
+        "id": "community-07",
+        "date": "Jul 2025",
+        "parts": [
+          {
+            "text": "Reviewer @ "
+          },
+          {
+            "href": "https://ep2025.europython.eu/",
+            "text": "EuroPython 2025"
+          }
+        ]
+      },
+      {
+        "id": "community-08",
+        "date": "Jul 2025",
+        "parts": [
+          {
+            "text": "Reviewer @ "
+          },
+          {
+            "href": "https://www.scipy2025.scipy.org/",
+            "text": "Scipy 2025"
+          }
+        ]
+      },
+      {
+        "id": "community-09",
+        "date": "May 2025",
+        "parts": [
+          {
+            "text": "PyLadies Auction Volunteer @ "
+          },
+          {
+            "href": "https://us.pycon.org/2025/",
+            "text": "PyCon US 2025"
+          }
+        ]
+      },
+      {
+        "id": "community-10",
+        "date": "Apr 2025",
+        "parts": [
+          {
+            "text": "Judge @ "
+          },
+          {
+            "href": "https://sfhacks.io/",
+            "text": "SF Hacks 2025"
+          },
+          {
+            "text": " (Theme - Tech For Good), San Francisco, CA"
+          }
+        ]
+      },
+      {
+        "id": "community-11",
+        "date": "Mar 2025",
+        "parts": [
+          {
+            "text": "Expo @ "
+          },
+          {
+            "href": "https://www.socallinuxexpo.org/scale/22x",
+            "text": "SCaLE 22x 2025"
+          }
+        ]
+      },
+      {
+        "id": "community-12",
+        "date": "Feb - Mar 2025",
+        "parts": [
+          {
+            "text": "Mentor @ "
+          },
+          {
+            "href": "https://labs.codeday.org/",
+            "text": "CodeDay Labs"
+          }
+        ]
+      },
+      {
+        "id": "community-13",
+        "date": "Feb 2025",
+        "parts": [
+          {
+            "text": "Judge @ "
+          },
+          {
+            "href": "https://gdg.community.dev/events/details/google-gdg-on-campus-eastern-washington-university-cheney-united-states-presents-build-with-ai-codequest-2025/",
+            "text": "Build With AI: CodeQuest 2025"
+          },
+          {
+            "text": ", GDG, Eastern Washington University"
+          }
+        ]
+      },
+      {
+        "id": "community-14",
+        "date": "Feb 2025",
+        "parts": [
+          {
+            "text": "Judge @ "
+          },
+          {
+            "href": "https://hackforhumanity.io/",
+            "text": "Hack For Humanity 2025"
+          },
+          {
+            "text": ", Santa Clara, CA"
+          }
+        ]
+      },
+      {
+        "id": "community-15",
+        "date": "Jan 2025",
+        "parts": [
+          {
+            "text": "Career Exploration Lounge @ "
+          },
+          {
+            "href": "https://rewritingthecode.org/event/tech-connect-tech-exploration-recruiting-event/",
+            "text": "Re-writing The Code - Tech Connect 2025"
+          }
+        ]
+      },
+      {
+        "id": "community-16",
+        "date": "Jun-Aug 2024",
+        "parts": [
+          {
+            "text": "Mentor @ "
+          },
+          {
+            "href": "https://cicscareers.notion.site/Alumni-Mentorship-Program-AMP-87a61d3fe26c4c1ba688d137609881f7",
+            "text": "Alumni Mentorship Program (AMP) 2024"
+          },
+          {
+            "text": ", UMass CICS"
+          }
+        ]
+      },
+      {
+        "id": "community-17",
+        "date": "Jan 2025",
+        "parts": [
+          {
+            "text": "Featured @ "
+          },
+          {
+            "href": "https://www.linkedin.com/posts/womentech-network_womenintech-networking-motivation-activity-7290453345729761281-EIcw",
+            "text": "WomenTech Network Highlights 2025"
+          }
+        ]
+      },
+      {
+        "id": "community-18",
+        "date": "Dec 2024",
+        "parts": [
+          {
+            "href": "https://conference.pyladies.com/",
+            "text": "PyLadies Con 2024"
+          }
+        ]
+      },
+      {
+        "id": "community-19",
+        "date": "Oct 2024",
+        "parts": [
+          {
+            "href": "https://discuss.python.org/t/parul-gupta-and-jason-fried-added-to-the-triage-team/67686",
+            "text": "Python Triager Open-Source"
+          },
+          {
+            "text": " @ Python Software Foundation"
+          }
+        ]
+      },
+      {
+        "id": "community-20",
+        "date": "Sep 2024",
+        "parts": [
+          {
+            "href": "https://discuss.python.org/t/2024-core-dev-sprint-in-bellevue-wa-september-23-27/39227",
+            "text": "Python Core Dev Sprints 2024"
+          }
+        ]
+      },
+      {
+        "id": "community-21",
+        "date": "Jul 2024",
+        "parts": [
+          {
+            "href": "https://www.meetup.com/pyninsula-python-peninsula-meetup/events/301678708/",
+            "text": "Python Pyninsula Meetup 2024"
+          }
+        ]
+      },
+      {
+        "id": "community-22",
+        "date": "Jun 2024",
+        "parts": [
+          {
+            "href": "https://2024.northbaypython.org/",
+            "text": "North Bay Python 2024"
+          }
+        ]
+      },
+      {
+        "id": "community-23",
+        "date": "May 2024",
+        "parts": [
+          {
+            "text": "Session Runner @ "
+          },
+          {
+            "href": "https://us.pycon.org/2024/",
+            "text": "PyCon US 2024"
+          }
+        ]
+      },
+      {
+        "id": "community-24",
+        "date": "Mar 2024",
+        "parts": [
+          {
+            "text": "Expo @ "
+          },
+          {
+            "href": "https://www.socallinuxexpo.org/scale/21x",
+            "text": "SCaLE 21x 2024"
+          }
+        ]
+      },
+      {
+        "id": "community-25",
+        "date": "Sep 2023",
+        "parts": [
+          {
+            "text": "Reviewer @ "
+          },
+          {
+            "href": "https://ghc.anitab.org/",
+            "text": "Grace Hopper Celebration 2023"
+          }
+        ]
+      },
+      {
+        "id": "community-26",
+        "date": "Jun 2022",
+        "parts": [
+          {
+            "href": "https://rstats.ai/",
+            "text": "2022 New York R Conference"
+          }
+        ]
+      },
+      {
+        "id": "community-27",
+        "date": "Jun 2021 - 2025",
+        "parts": [
+          {
+            "text": "Mentor @ "
+          },
+          {
+            "href": "https://rewritingthecode.org/",
+            "text": "Rewriting The Code"
+          }
+        ]
+      },
+      {
+        "id": "community-28",
+        "date": "Feb 2021",
+        "parts": [
+          {
+            "text": "Communications Lead @ "
+          },
+          {
+            "href": "https://groups.cs.umass.edu/voicesofds21/",
+            "text": "Voices of Data Science"
+          },
+          {
+            "text": ", University of Massachusetts Amherst"
+          }
+        ]
+      },
+      {
+        "id": "community-29",
+        "date": "Oct 2019",
+        "parts": [
+          {
+            "href": "https://yahoofinanceams2019.splashthat.com/",
+            "text": "Yahoo Finance All Markets Summit 2019: Generational Opportunities"
+          }
+        ]
+      },
+      {
+        "id": "community-30",
+        "date": "Oct 2018",
+        "parts": [
+          {
+            "href": "https://in.pycon.org/2018/",
+            "text": "PyCon India 2018"
+          }
+        ]
+      }
+    ]
+  }
+}

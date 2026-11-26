@@ -1,0 +1,35 @@
+.archive-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 16px;
+  padding: 12px 0;
+  color: var(--link);
+  font-size: 16px;
+  cursor: pointer;
+  list-style: none;
+}
+.archive-button::-webkit-details-marker {
+  display: none;
+}
+.archive-icon {
+  font-size: 22px;
+  font-weight: 400;
+}
+.archive-icon::before {
+  content: "+";
+}
+.disclosure[open] > .archive-button > .archive-icon::before {
+  content: "−";
+}
+.archive-label-open {
+  display: none;
+}
+.disclosure[open] > .archive-button > .archive-label-closed {
+  display: none;
+}
+.disclosure[open] > .archive-button > .archive-label-open {
+  display: inline;
+}
