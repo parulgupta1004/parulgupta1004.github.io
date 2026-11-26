@@ -1,124 +1,163 @@
 .main {
   width: 90%;
   padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 4rem;
-}
-.greet-main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
+  margin: 4rem auto 0;
 }
 
-.gretting-main {
+.greet-main {
+  box-sizing: border-box;
   width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+  max-width: 1200px;
+  margin: 2rem auto 4rem;
+  padding: 48px 10px;
+  border-top: 1px solid #dce1e6;
+  border-bottom: 1px solid #dce1e6;
+  color: #243447;
 }
 
 .greeting-main {
-  display: flex;
-  gap: 7%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 56px;
 }
 
-.greeting-main > * {
-  flex: 1;
-  margin-bottom: 30px;
+.greeting-image-div {
+  padding: 8px;
+  border: 1px solid #dce1e6;
+  background: #fafbfc;
 }
-.button-greeting-div {
-  display: flex;
-  margin-top: 20px;
+
+.greeting-image-div > img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .greeting-text {
-  font-size: 70px;
-  line-height: 1.1;
-  flex: 50%;
+  margin: 0 0 24px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(36px, 4vw, 56px);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.greeting-roles {
+  padding-left: 18px;
+  border-left: 2px solid #52677d;
 }
 
 .greeting-text-p {
-  font-size: 30px;
-  margin-top: -20px;
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 .greeting-text-p2 {
-    font-size: 20px;
-    line-height: 20px;
-  }
-
-.greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
-  flex: 40%;
-}
-.wave-emoji {
-  animation-duration: 1.8s;
-  animation-iteration-count: infinite;
-  animation-name: wave;
-  display: inline-block;
-  transform-origin: 70% 70%;
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #46576a;
 }
 
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(-10deg);
-  }
-  20% {
-    transform: rotate(12deg);
-  }
-  30% {
-    transform: rotate(-10deg);
-  }
-  40% {
-    transform: rotate(9deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
+.greeting-summary {
+  max-width: 480px;
+  margin: 24px 0;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #56616e;
 }
 
-/* Media Query */
-@media (max-width: 1380px) {
-  .greeting-text {
-    font-size: 50px;
-  }
-  .greeting-text-p {
-    font-size: 20px;
-  }
-  .greeting-text-p2 {
-    font-size: 18px;
+.greeting-roles a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #a2aebb;
+  text-underline-offset: 4px;
+}
+
+.greeting-roles a:hover {
+  color: #243447;
+  text-decoration-color: currentColor;
+}
+
+.greeting-roles a:focus-visible {
+  outline: 2px solid #52677d;
+  outline-offset: 4px;
+}
+
+.greet-main .social-media-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 1rem;
+}
+
+.greet-main .icon-button {
+  display: inline-flex;
+  margin: 0;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.greet-main .icon-button i {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  border: 1px solid #dce1e6;
+  border-radius: 4px;
+  background: #fff;
+  color: #34475b;
+  font-size: 18px;
+  line-height: 40px;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.greet-main .icon-button:hover i,
+.greet-main .icon-button:focus-visible i {
+  background: #243447;
+  color: #fff;
+}
+
+.greet-main .icon-button:focus-visible {
+  outline: 2px solid #52677d;
+  outline-offset: 4px;
+}
+
+@media (max-width: 960px) {
+  .greeting-main {
+    gap: 32px;
   }
 }
 
 @media (max-width: 768px) {
-  .button-greeting-div {
-    justify-content: space-around;
+  .greet-main {
+    margin: 1rem auto 2.5rem;
+    padding: 28px 0;
   }
-  .greeting-text {
-    font-size: 30px;
-    text-align: center;
-    /* margin: 50%; */
-  }
-  .greeting-text-p {
-    font-size: 16px;
-    line-height: normal;
-    text-align: center;
-  }
-  .greeting-text-p2 {
-    font-size: 14px;
-    line-height: normal;
-    text-align: center;
-  }
+
   .greeting-main {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  .greeting-image-div {
+    width: 100%;
+    max-width: 480px;
+    box-sizing: border-box;
+    justify-self: center;
+  }
+
+  .greeting-text {
+    margin-bottom: 20px;
+  }
+
+  .greeting-text-p {
+    font-size: 18px;
+  }
+
+  .greeting-text-p2 {
+    font-size: 16px;
   }
 }
