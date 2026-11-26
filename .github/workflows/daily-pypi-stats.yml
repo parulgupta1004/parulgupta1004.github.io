@@ -6,6 +6,9 @@ on:
     paths:
       - "src/**"
       - "public/**"
+      - "index.html"
+      - ".nvmrc"
+      - "vite.config.mjs"
       - "scripts/**"
       - "package.json"
       - "package-lock.json"
@@ -46,6 +49,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Check for deprecated dependencies
+        run: npm run check:dependencies
+
       - name: Test the stats refresh and fallback behavior
         run: npm run test:stats
 
@@ -53,7 +59,10 @@ jobs:
         run: npm run refresh:stats
 
       - name: Test the webpage
-        run: npm test -- --watch=false --runInBand
+        run: npm test
+
+      - name: Test sitemap dates and agent content
+        run: npm run test:seo
 
       - name: Build the static site
         run: npm run build

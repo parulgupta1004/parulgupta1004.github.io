@@ -50,7 +50,7 @@
   margin: 16px 0 0;
 }
 .topic-list li {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--muted);
   line-height: 1.8;
 }
@@ -74,17 +74,20 @@
 }
 .engagement-date {
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
   padding-top: 2px;
 }
 .engagement-row p {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
   overflow-wrap: anywhere;
 }
 .engagement-row a {
   text-decoration-color: var(--border-strong);
+}
+.engagement-archive > .archive-button {
+  font-size: 18px;
 }
 .community-section {
   background: #f1f3f2;

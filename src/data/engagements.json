@@ -1,7 +1,7 @@
 {
   "talks": {
     "id": "talks",
-    "title": "Talks",
+    "title": "Python & Responsible AI Talks",
     "topics": ["Python", "Responsible AI", "AI Ethics", "Machine Learning"],
     "archiveLabel": "talks",
     "entries": [
@@ -365,7 +365,7 @@
   },
   "community": {
     "id": "community",
-    "title": "Community",
+    "title": "Community Engagement",
     "topics": ["Mentoring", "Reviewing", "Volunteering"],
     "archiveLabel": "engagements",
     "entries": [

@@ -6,11 +6,11 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Parul Gupta",
   title: "Parul Gupta",
-  subTitle: "Software Engineer at Meta",
+  subTitle: "Engineering at Meta",
   subTitle2:
     "Award winner | Responsible AI Engineer | Tech Speaker | Pythonista",
   subTitle3: "Open source Maintainer, Fairlearn",
-  subTitle4: "Creator of Fair-Seldonian",
+  subTitle4: "Creator, Fair-Seldonian",
   fairlearnUrl: "https://pypi.org/project/fairlearn/",
   fairSeldonianUrl: "https://pypi.org/project/fair-seldonian/",
   summary:

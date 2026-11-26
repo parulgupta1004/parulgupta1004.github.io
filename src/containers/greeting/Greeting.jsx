@@ -50,7 +50,7 @@ export default function Greeting() {
               sizes="(max-width: 768px) calc(100vw - 60px), (max-width: 1280px) 45vw, 540px"
               width="1040"
               height="708"
-              fetchpriority="high"
+              fetchPriority="high"
               decoding="async"
             />
           </div>

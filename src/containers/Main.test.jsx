@@ -1,19 +1,20 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { act } from "react-dom/test-utils";
+import { act } from "react";
+import { createRoot } from "react-dom/client";
 import Main from "./Main";
 
 let container;
+let root;
 beforeEach(() => {
   container = document.createElement("div");
   document.body.appendChild(container);
+  root = createRoot(container);
   act(() => {
-    ReactDOM.render(<Main />, container);
+    root.render(<Main />);
   });
 });
 afterEach(() => {
   act(() => {
-    ReactDOM.unmountComponentAtNode(container);
+    root.unmount();
   });
   container.remove();
 });
