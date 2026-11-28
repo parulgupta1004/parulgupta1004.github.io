@@ -1,12 +1,12 @@
 {
   "fairlearn": {
-    "lastMonth": 135543,
-    "asOf": "2026-11-27",
+    "lastMonth": 134817,
+    "asOf": "2026-11-28",
     "source": "https://pypistats.org/packages/fairlearn"
   },
   "fair-seldonian": {
-    "lastMonth": 24,
-    "asOf": "2026-11-27",
+    "lastMonth": 28,
+    "asOf": "2026-11-28",
     "source": "https://pypistats.org/packages/fair-seldonian"
   }
 }
